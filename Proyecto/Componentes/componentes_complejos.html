@@ -1,20 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
     <link rel="stylesheet" href="../../node_modules/bootstrap/dist/css/bootstrap.min.css">
-    <script src="../../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script src="../../node_modules/@popperjs/core/dist/umd/popper-base.min.js"></script>
 </head>
+
 <body>
 
-<h1>Dropdawn</h1>
+    <h1>Dropdawn</h1>
 
-    <div class="dropdown"></div>
-        <button class="btn btn-success dropdown-toggle" data-bs-toggle="dropdown">
+    <div class="dropdown">
+        <button class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown">
             Mi listado
             <ul class="dropdown-menu">
                 <li>
@@ -24,11 +24,30 @@
                     <a href="#" class="dropdown-item">Item 2</a>
                 </li>
                 <li>
+                    <hr class="dropdown-divider" />
+                </li>
+                <li>
                     <a href="#" class="dropdown-item">Item 3</a>
 
                 </li>
             </ul>
         </button>
-    
+
+        <h1>Nav</h1>
+
+        <ul class="nav">
+            <li class="nav-item">
+                <a href="nav-link">Opcion 1</a>
+            </li>
+        </ul>
+
+    </div>
+
+
+    <script src="../../node_modules/@popperjs/core/dist/umd/popper-base.min.js"></script>
+    <script src="../../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+
 </body>
+
 </html>
