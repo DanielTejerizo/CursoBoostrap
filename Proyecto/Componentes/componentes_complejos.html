@@ -106,7 +106,13 @@
         </ul>
         <h1>Tarjetas</h1>
 
-        <div class="card">
+        <div class="card text-bg-danger">
+            <div class="card-header">
+                <h3>Cabecera</h3>
+            </div>
+            <div class="card-body">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa voluptatum quos voluptatem saepe quis, adipisci facilis necessitatibus aspernatur? Nemo rerum voluptates quaerat accusantium aperiam minima dolores cum, sapiente tempore iure!</p>
+            </div>
             <div class="card-header">
                 <h3>Cabecera</h3>
             </div>
@@ -117,6 +123,27 @@
                 <h3>Pie</h3>
             </div>
         </div>
+        <h1>Modal</h1>
+
+        <div class="modal fade" id="exampleModal">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title">Modal titulo</h1>
+                        <button data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        Contenedor
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                        <button class="btn btn-success">Guardar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Abrir Modal</button>
 
     </div>
 
